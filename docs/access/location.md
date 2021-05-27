@@ -100,7 +100,7 @@ Current folder structure via tree command:
         ├── tables_handling  
         ├── test_release_connectotyping  
         └── text_manipulation  
- ```
+```
 
 Each repo must be kept under version control and has a developer responsible.  
 Stewardship is defined in the following table:  
