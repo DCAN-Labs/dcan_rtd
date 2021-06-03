@@ -1,8 +1,8 @@
 # UMN Course List
+
 Here you will find a list of recommended courses curated by the PIs of the DCAN Lab. While this list provides a general overview of classes related to our field of research, we recognize the individual nature of a college education. Please feel free to reach out to a DCAN PI for one-on-one assistance in selecting courses from this list.
 
 *If any of these classes have been retired, or if you find other classes that are suitable for inclusion, please contact Nora Byington (bying015@umn.edu) with your suggested edits.*
-
 
 ## Mathematics and Computing
 
@@ -21,6 +21,7 @@ This course builds the computational skills needed to carry out basic data analy
 ### STAT 3011 - Introduction to Statistical Analysis
 
 Standard statistical reasoning. Simple statistical methods. Social/physical sciences. Mathematical reasoning behind facts in daily news. Basic computing environment.
+
 ### BIOL 3272 - Applied Biostatistics
 
 Conceptual basis of statistical analysis. Statistical analysis of biological data. Data visualization, descriptive statistics, significance tests, experimental design, linear model, simple/multiple regression, general linear model. Lectures, computer lab.
@@ -115,7 +116,7 @@ Data-analytic procedures used in psychological research. Types of variables used
 
 ### PSY 8960 – Rotating Statistics Class for Social Scientists
 
-Multivariate statistics, non-parametric statistics, and multilevel modeling 
+Multivariate statistics, non-parametric statistics, and multilevel modeling
 
 ### EPSY 8264 - Advanced Multiple Regression Analysis
 

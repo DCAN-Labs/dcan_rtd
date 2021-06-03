@@ -106,6 +106,7 @@ nav:
         - Filemapper: utility/filemap.md
         - GUI Environment: utility/gui.md
         - Reference Bias Checker: utility/bias.md
+    - UMN Recommended Courses: courses.md
     - Troubleshooting: trouble.md
     - Recorded Presentations: didactic.md
     - Linux: linux.md
