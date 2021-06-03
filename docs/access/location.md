@@ -8,7 +8,7 @@ To ensure the data and code created can be accessed by all, update you bashrc wi
   - This prompts gedit to open your bashrc file
 - Set umask to 002
 
-  ![image](images/gedit.png)
+![gedit](images/gedit.png)
 
 - Close the file and type "source ~/.bashrc" info the tpermail to apply the changes
 
