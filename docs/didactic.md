@@ -2,6 +2,22 @@
 
 ## Check here for various didactic and journal club recordings. Please note that some recordings as missing, as not every presenter gives consent to be recorded.
 
+### **[Prediction of Suicidal ideation and Attempt in 9 and 10 Year Old Children Using Transdiagnostic Risk Features](https://drive.google.com/file/d/1baueH24OW3iWhNALPp4sBtSB7Dn2d2Sn/view?usp=sharing)**
+
+*[Gareth Harman](https://www.ohsu.edu/people/gareth-harman)* - June 28, 2021
+
+Covering a recent publication in which we built models to predict suicidal ideation and suicide attempt using the ABCD sample.  We will be discussing some of the challenges of this task and looking to have an open discussion at the end about some of these limitations and future directions.
+
+### **[The MIDB Precision Functional Atlas and a potential use case for non-invasive neuromodulation](https://drive.google.com/file/d/1FdFh1Qvt3klDYFfkadpERcFhGM9Cu8-s/view?usp=sharing)**
+
+*[Robert Hermosillo](https://innovation.umn.edu/developmental-cognition-and-neuroimaging-lab/our-team/postdocs/)* - June 14, 2021
+
+### **[A Robust and Unified Framework for Estimating Heritability using Generalized Estimating Equations](https://drive.google.com/file/d/13b3XdPteS9MrJmdLFPMN1CC-12v8qd0n/view?usp=sharing)**
+
+*[Sanoli Basu](https://directory.sph.umn.edu/bio/sph-a-z/saonli-basu)* - May 17, 2021
+
+Researchers are often interested in estimating heritability for non‐normal outcomes such as binary, counts, skewed, or heavy‐tailed continuous traits. I will discuss a robust generalized estimating equations (GEE2) framework for estimating heritability for non‐normal traits. I will show that this approach allows adjusting for covariates in a flexible way and provides a computationally fast alternative to likelihood-based techniques.
+
 ### **[Interrogating Multivariate Patterns of Functional Connectivity Related to Age in the Newborn Brain](https://drive.google.com/file/d/1ui6mGOpxizNeTkHh_hb3kwb8GvwjJ-Hq/view?usp=sharing)**
 
 *Ashley Nielsen* - May 3, 2021
