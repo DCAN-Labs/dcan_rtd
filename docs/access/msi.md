@@ -31,26 +31,33 @@ In order to request an MSI account as a non-UMN employee, a Person of Interest (
 - **Launch a Terminal** - To Launch a terminal, visit [NX](https://nx.msi.umn.edu/nxwebplayer) or [NICE](https://nice.msi.umn.edu/enginframe/vdi/vdi.xml?_uri=//com.enginframe.interactive/list.sessions) and login with your UMN credentials.  
 - **Enter Mesabi Node** - To access files and request resources for a job, you must log into the Mesabi Node.  
 
-    ssh -Y mesabi
+  - `ssh -Y miran045@mesabi.msi.umn.edu`
+    - replace `miran045` with your username
 
-    You will then be prompted to enter your UMN password again.
+   1. Request resources for interactive computing. **As default, you should request an interactive node**. In some cases (i.e. high priority projects) you might request access to the **dcan** node
 
-    All jobs executed on the Mesabi node will terminate after 15 minutes. If your task requires more time, select one of the following options:  
+      a. **Default** | [mesabi](https://www.msi.umn.edu/content/mesabi) resources
+        - `srun -N 1 --ntasks-per-node=4  --mem-per-cpu=4gb -t 4:00:00 -p interactive --x11 --pty bash`
+        - (update time and memory as needed).
+            - To change memory, change the argument of the flag `--mem-per-cpu`
+            - To change time, change the argument of the flag `-t`
 
-  - *Compute Node*  
+      b. **Using the dcan node**. Reserve this node for high priority/high RAM/CPU power demands
+        - `srun -N 1 --cpus-per-task=4 --mem-per-cpu=4gb -t 4:00:00 --x11 -p dcan --pty bash`
+        - (update time and memory as needed).
+            - To change memory, change the argument of the flag `--mem-per-cpu`
+            - To change time, change the argument of the flag `-t`
 
-    - Requesting resources:  srun -N 1 --ntasks-per-node=4  --mem-per-cpu=1gb -t 1:00:00 -p interactive --x11 --pty bash  
-    *update time and memory as needed*
+   2. [Load the module you need](https://www.msi.umn.edu/support/faq/what-module). For example, if you want to run matlab, just type in terminal `module load matlab`
 
-    - Usage guidelines: Use this for all jobs that don't meet the requirements of the DCAN node.
+### Additional details
 
-  - *DCAN Node*  
+For non-interactive jobs, use [slurm](https://www.msi.umn.edu/content/job-submission-and-scheduling-slurm) for job submissions. This [link](https://www.msi.umn.edu/partitions) points to a table that shows the memory and time capacity of each partition for non-interactive jobs.
 
-    - Requesting resources:  srun -N 1 --cpus-per-task=4 --mem-per-cpu=4gb -t 4:00:00 --x11 -p dcan --pty bash
+If you experience delays or problems accesing the MSI or a particular node, the reason could be that the MSI might be non-fully operational at that time. The first Wednesday of each month the system is down for maintenance. Use the following links to check the MSI system and node status at any time:
 
-    - Usage guidelines:  This node is reserved for high priority/high RAM/CPU power demands. Email the listserv before running a job.
-
-        Note: The DCAN Node has restricted access. Please contact Nora       Byington (bying015@umn.edu) if a PI has instructed you to gain access.
+- [MSI System status](https://status.msi.umn.edu/)
+- [MSI node status](https://umgcdownload.msi.umn.edu/website/slurmnodes/index.html)
 
 ## *Reporting Errors*
 
