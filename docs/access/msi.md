@@ -24,17 +24,16 @@ In order to request an MSI account as a non-UMN employee, a Person of Interest (
 
       *If you receive an error message the first time, simply re-open Cisco.*
 
-
 2. Structure of High Performance Computer (HPC) Systems  
 
-- To learn more about the structure of the HPC system, visit the [MSI website](https://www.msi.umn.edu/tutorials) for a list of tutorials.  
-- **Launch a Terminal** - To Launch a terminal, visit [NX](https://nx.msi.umn.edu/nxwebplayer) or [NICE](https://nice.msi.umn.edu/enginframe/vdi/vdi.xml?_uri=//com.enginframe.interactive/list.sessions) and login with your UMN credentials.  
-- **Enter Mesabi Node** - To access files and request resources for a job, you must log into the Mesabi Node.  
+   - To learn more about the structure of the HPC system, visit the [MSI website](https://www.msi.umn.edu/tutorials) for a list of tutorials.  
+   - **Launch a Terminal** - To Launch a terminal, visit [NX](https://nx.msi.umn.edu/nxwebplayer) or [NICE](https://nice.msi.umn.edu) and login with your UMN credentials.  
+   - **Enter Mesabi Node** - To access files and request resources for a job, you must log into the Mesabi Node.  
 
-  - `ssh -Y miran045@mesabi.msi.umn.edu`
-    - replace `miran045` with your username
+      - `ssh -Y miran045@mesabi.msi.umn.edu`
+      - replace `miran045` with your username
 
-   1. Request resources for interactive computing. **As default, you should request an interactive node**. In some cases (i.e. high priority projects) you might request access to the **dcan** node
+   - Request resources for interactive computing. **As default, you should request an interactive node**. In some cases (i.e. high priority projects) you might request access to the **dcan** node
 
       a. **Default** | [mesabi](https://www.msi.umn.edu/content/mesabi) resources
         - `srun -N 1 --ntasks-per-node=4  --mem-per-cpu=4gb -t 4:00:00 -p interactive --x11 --pty bash`
@@ -48,7 +47,7 @@ In order to request an MSI account as a non-UMN employee, a Person of Interest (
             - To change memory, change the argument of the flag `--mem-per-cpu`
             - To change time, change the argument of the flag `-t`
 
-   2. [Load the module you need](https://www.msi.umn.edu/support/faq/what-module). For example, if you want to run matlab, just type in terminal `module load matlab`
+   - [Load the module you need](https://www.msi.umn.edu/support/faq/what-module). For example, if you want to run matlab, just type in terminal `module load matlab`
 
 ### Additional details
 
