@@ -4,13 +4,11 @@
 
 To ensure the data and code created can be accessed by all, update you bashrc with the following steps:
 
-- Type in terminal: gedit ~/.bashrc
-  - This prompts gedit to open your bashrc file
+- Open your bashrc file with a text editor
+  - emacs ~/.bashrc
 - Set umask to 002
-
-![gedit](images/gedit.png)
-
 - Close the file and type "source ~/.bashrc" info the tpermail to apply the changes
+
 
 ## Code
 
