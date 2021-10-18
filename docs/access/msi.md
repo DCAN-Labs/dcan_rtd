@@ -19,7 +19,7 @@ In order to request an MSI account as a non-UMN employee, a Person of Interest (
     - type "tc-vpn-1.umn.edu" in the box
     - choose "anyconnect-UofMvpnfull" from the group
     - enter username and password
-      
+
       *This installs required setups for VPN, after which you will have a dropdown with UMN choices and can use split tunnel moving forward.*
 
       *If you receive an error message the first time, simply re-open Cisco.*
