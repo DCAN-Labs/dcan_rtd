@@ -6,9 +6,8 @@ To ensure the data and code created can be accessed by all, update you bashrc wi
 
 - Open your bashrc file with a text editor
   - emacs ~/.bashrc
-- Set umask to 002
-- Close the file and type "source ~/.bashrc" info the tpermail to apply the changes
-
+- Set umask to 0007
+- Close the file and type "source ~/.bashrc" info the terminal to apply the changes
 
 ## Code
 

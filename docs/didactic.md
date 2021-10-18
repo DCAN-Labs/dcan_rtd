@@ -2,6 +2,40 @@
 
 ## Check here for various didactic and journal club recordings. Please note that some recordings as missing, as not every presenter gives consent to be recorded.
 
+### **[Parallel hippocampal-parietal circuits for self- and goal-oriented processing]**
+
+*[Annie Zheng](http://dbbs.wustl.edu/curstudents/Pages/student_bio.aspx?SID=7492)* - October 18, 2021
+
+### **[Brain Wide Associations (BWAS) to model the link between brain features and behavior. Polyneuro Risk Scores of Math abilities](https://drive.google.com/file/d/1oWJVqt6EvwGEnz2eeEV5CxYO_GHtx7V-/view?usp=sharing)**
+
+*[Amandine Van Rinsveld](https://edneuroinitiative.stanford.edu/people/amandine-van-rinsveld-phd)* - October 4, 2021
+
+Can we predict the basic math skills of an individual from the brain functional architecture? In this talk, you will hear about how brain wide associations (BWAS) and polyneuro risk scores (PNRS) can be used to predict math abilities as measured in behavioral tasks. We used data from the ABCD data set to study the functional networks related to math skills in a larger sample. This approach shows that networks supporting math skills are associated to focal effects rather than being distributed across the entire brain
+
+### **[Brain Wide Associations (BWAS) to model the link between brain features and behavior](https://drive.google.com/file/d/17iRMUb62wZMTrepX129hL_om3mi9gGUk/view?usp=sharing)**
+
+*[Oscar Miranda Dominguez](https://innovation.umn.edu/developmental-cognition-and-neuroimaging-lab/our-team/leadership/)* - September 20, 2021
+
+In this talk, you will hear about how brain wide associations (BWAS) and polyneuro risk scores (PNRS) are used to model associations between brain features (e.g., resting-state functional connectivity, cortical thickness) and behavior using large samples (N>1000). The speaker will describe the rationale behind following this approach and, using data from the ABCD study, will show how BWAS/PNRS can be useful to disambiguate between focal or globally distributed effects.
+
+### **[CNNs and GANs in T1w-to-T2w Image Estimation](https://drive.google.com/file/d/1u1-Klqtkp9bmWxToxKSkvV7i0vc2BB8H/view?usp=sharing)**
+
+*[Anders Perrone](https://innovation.umn.edu/developmental-cognition-and-neuroimaging-lab/our-team/research-assistants/)* - August 23, 2021
+
+Deep learning based methods for image estimation offer unique solutions to many MR image processing challenges. One such challenge is the issue of missing or poor quality anatomical image modalities that are required for minimal preprocessing of functional data, particularly in neonatal cohorts. Here, we present an overview of deep learning methods to generate realistic T2w images from T1w images in multiple neonatal cohorts and demonstrate their efficacy in salvaging fcMRI processing that would otherwise have been lost due to missing or poor quality T2w images.
+
+### **[Resting state functional connectivity networks predict motor behavior in Parkinson’s Disease](https://drive.google.com/file/d/1y9hQ4qtO772_amvbW3bneD7FSaiNRoBb/view?usp=sharing)**
+
+*[Anjani Ragothaman](https://www.ohsu.edu/school-of-medicine/neurology/balance-disorders-laboratory-personnel)* - August 9, 2021
+
+Parkinson’s disease (PD) is a neurodegenerative disorder characterized by multiple motor symptoms following dopamine depletion in the substantia nigra.  While the negative effects of this deficit in the basal ganglia and motor cortical areas is well documented, the involvement of other cortical areas in PD is not well understood. Functional MRI offers a unique opportunity to non-invasively characterize brain function. In this study, we hypothesized that the motor dysfunctions observed in PD not only depend on motor networks, but also involve connectivity in higher-level attention networks.
+
+### **[Personalized functional networks: sex differences and development Part One - Sheila](https://drive.google.com/file/d/1BxjalqDTJ5T7JInPfSFlZEPSW_Vw-PTq/view?usp=sharing)** and **[Part Two - Adam](https://drive.google.com/file/d/1wI1HUObNXzdTdp3pE_e53xW53AowhYr5/view?usp=sharing)**
+
+*[Sheila Shanmugan](https://www.pennlinc.io/team/Sheila-Shanmugan)* and *[Adam Pines](https://www.pennlinc.io/team/Adam-Pines)* - July 12 and 26, 2021
+
+Individualized mapping of functional networks has revealed substantial inter-individual variability in the topography of these networks. Here, we found systematic sex differences in functional topography, which are linked to regional sex-specificity in gene expression. Additionally, we used multi-scale individualized functional networks to delineate patterns of hierarchical network coupling in neurocognitive development.
+
 ### **[Prediction of Suicidal ideation and Attempt in 9 and 10 Year Old Children Using Transdiagnostic Risk Features](https://drive.google.com/file/d/1baueH24OW3iWhNALPp4sBtSB7Dn2d2Sn/view?usp=sharing)**
 
 *[Gareth Harman](https://www.ohsu.edu/people/gareth-harman)* - June 28, 2021
