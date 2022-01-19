@@ -1,12 +1,12 @@
 # Programming Languages
 
-Here you will find training resources for the most commonly used programming languages within the DCAN Lab. There are several free programming related workshops offered by the UMN - visit [this link](https://latisresearch.umn.edu/workshops) for more details.  
+Here you will find training resources for the most commonly used programming languages within the DCAN Lab. There are several free programming related workshops offered by the UMN - visit [this link](https://latisresearch.umn.edu/workshops) for more details. Workshops are updated periodically each semester. 
 
 ## Bash  
 
 Linux trainings can be found [here](https://linux-training.be/linuxfun.pdf) in sections III-V.
 
-Introductory FSL practicals can be found [here](https://fsl.fmrib.ox.ac.uk/fslcourse/online_materials.html#unix).
+Introductory FSL practicals can be found [here](https://open.win.ox.ac.uk/pages/fslcourse/website/online_materials.html).
 
 ## Python  
 
