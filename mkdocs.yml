@@ -39,18 +39,12 @@ nav:
         - DADS App: protool/dads.md
     - Neuroimaging Software: software.md
     - DCAN Analysis Tools:
-        - Seed Map Parcellation Wrapper:
-            - Overview: analysis/seed/intro.md
-            - Code and SOP: analysis/seed/code.md
-            - Release History: analysis/seed/release.md
+        - Seed Map Parcellation Wrapper: analysis/seed.md
         - PALM: 
             - Overview: analysis/palm/intro.md
             - Code and SOP: analysis/palm/code.md
             - Release History: analysis/palm/release.md
-        - Template Matching: 
-            - Overview: analysis/temp/intro.md
-            - Code and SOP: analysis/temp/code.md
-            - Release History: analysis/temp/release.md
+        - Template Matching: analysis/temp.md
         - Random Forest: 
             - Overview: analysis/forest/intro.md
             - Code and SOP: analysis/forest/code.md
@@ -59,10 +53,7 @@ nav:
             - Overview: analysis/fconn/intro.md
             - Code and SOP: analysis/fconn/code.md
             - Release History: analysis/fconn/release.md
-        - Cifti Conn Matrix:
-            - Overview: analysis/cifti/intro.md
-            - Code and SOP: analysis/cifti/code.md
-            - Release History: analysis/cifti/release.md
+        - Cifti Conn Matrix: analysis/cifti.md
         - Community Detection:
             - Overview: analysis/comm/intro.md
             - Code and SOP: analysis/comm/code.md
@@ -85,10 +76,7 @@ nav:
             - Release History: analysis/poly/release.md
         - Video Walkthroughs: analysis/video.md
     - DCAN Visualization Tools:
-        - Figure Maker:
-            - Code and SOP: visual/figure/code.md
-            - Video Walkthrough: visual/figure/video.md
-            - Release History: visual/figure/release.md
+        - Figure Maker: visual/figure.md
         - ShowM:
             - Code and SOP: visual/show/code.md
             - Video Walkthrough: visual/show/video.md
