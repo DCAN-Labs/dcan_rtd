@@ -1,8 +1,8 @@
 # Didactics/Journal Clubs
 
-## Check here for various didactic and journal club recordings. Please note that some recordings as missing, as not every presenter gives consent to be recorded.
+## Check here for various didactic and journal club recordings. Please note that some recordings as missing, as not every presenter gives consent to be recorded
 
-### **[Overview of DCAN-infant pipeline]()
+### **[Overview of DCAN-infant pipeline]**
 
 *[Eric Feczko](https://innovation.umn.edu/developmental-cognition-and-neuroimaging-lab/our-team/leadership/) and [Lucille Moore](https://innovation.umn.edu/developmental-cognition-and-neuroimaging-lab/our-team/postdocs/)
 
@@ -88,7 +88,7 @@ Longitudinal designs are becoming more common, and they make it possible to ask 
 
 *[Isa Stallworthy](https://icd.umn.edu/people/stall142/)* - March 22, 2021
 
-The development of selective visual attention is critical for effectively engaging with an ever-changing world. Its optimal deployment depends upon interactions between neural, motor, and sensory systems across multiple timescales and neurocognitive loci. Previous work illustrates the spatio-temporal dynamics of these processes in adults, but less is known about this emergent phenomenon early in life. Using data (n = 190; 421 visits) collected between 3 and 35 months of age, we examined the spatio-temporal complexity of young children’s gaze patterns as they viewed stimuli varying in semantic salience. This presentation will share results from this paper (recently published in Scientific Reports) and provide an overview of a complexity science approach to studying human systems that we believe has the potential for broader application throughout the developmental and cognitive sciences. 
+The development of selective visual attention is critical for effectively engaging with an ever-changing world. Its optimal deployment depends upon interactions between neural, motor, and sensory systems across multiple timescales and neurocognitive loci. Previous work illustrates the spatio-temporal dynamics of these processes in adults, but less is known about this emergent phenomenon early in life. Using data (n = 190; 421 visits) collected between 3 and 35 months of age, we examined the spatio-temporal complexity of young children’s gaze patterns as they viewed stimuli varying in semantic salience. This presentation will share results from this paper (recently published in Scientific Reports) and provide an overview of a complexity science approach to studying human systems that we believe has the potential for broader application throughout the developmental and cognitive sciences.
 
 ### **[Inherited Genetic Liability for Autism and Infant Brain Development](https://drive.google.com/file/d/17sL2mcuzTm4WABAwMFzyngbUtFs7bdI2/view?usp=sharing)**
 

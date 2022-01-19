@@ -1,5 +1,7 @@
 # Template Matching
 
+## Overview
+
 Template matching is a method of network mapping that leverages commonly observed networks that have been previously observed in a group average to accelerate the community detection process.
 Individual networks are identified in a 3-step process:
 
@@ -8,3 +10,10 @@ Individual networks are identified in a 3-step process:
 - **Generate a template of networks**: Using the networks commonly observed in a group, we can create a set of network templates that are specific to the training group.
 
 - **Match connectivity of each voxel**: Using a dense connectivity matrix from a subject in an independent test group, we correlate each voxel, or seed, to each of the network templates.  Voxels are assigned to the network with the highest spatial similarity to the network template.
+
+## Code Locations
+
+DCAN lab members can find the code here:
+/home/faird/shared/code/internal/analytics/compare_matrices_to_assign_networks
+
+You can find the code and additional documentation, including the [SOP](https://github.com/DCAN-Labs/compare_matrices_to_assign_networks/blob/master/README.md), on [github](https://github.com/DCAN-Labs/compare_matrices_to_assign_networks).
