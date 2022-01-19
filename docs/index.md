@@ -16,7 +16,7 @@ Our lab members have diverse training backgrounds and areas of expertise spannin
 
 *Before contributing to this page, please review the following:*
 
--Each section has a [Standard Template](insertlink)
+* Each section has a [Standard Template](insertlink)
 
--Review this [Flow Chart](insertlink) to decide the best section for new information
+* Review this [Flow Chart](insertlink) to decide the best section for new information
 
