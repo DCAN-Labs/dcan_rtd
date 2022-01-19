@@ -12,11 +12,15 @@ Introductory FSL practicals can be found [here](https://open.win.ox.ac.uk/pages/
 
 Jupyter notebook introducing python can be found [here](https://github.com/LuciMoore/EXITO_workshop).  
 
+Additionally, the MSI has scheduled trainings for introducing [programming](https://www.msi.umn.edu/tutorials/programming-python) and [scientific computing](https://www.msi.umn.edu/tutorials/python-scientific-computing) in Python.
+
 Open source textbook statistics with companion for Python can be found [here](https://statsthinking21.org/).
 
 ## R
 
-Beginner training modules can be found [here](https://r-bootcamp.netlify.app/).  
+Beginner training modules can be found [here](https://r-bootcamp.netlify.app/). 
+
+UMN has additional support and resources for R which can be found [here](https://libguides.umn.edu/c.php?g=1013059).
 
 Open source textbook statistics with companion for R can be found [here](https://statsthinking21.org/).  
 
