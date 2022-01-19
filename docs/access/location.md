@@ -283,6 +283,10 @@ Below is the current structure for shared data on each server:
 ### /home/feczk001/shared/data
 
 ```markdown
+├── ABCD
+├── ABCD_copy
+├── ABCD_sym_for_CuBIDS
+├── abcd-sync
 ├── adhd_subs_transfer  
 │   ├── derivatives  
 │   │   ├── abcd-hcp-pipeline  
@@ -292,9 +296,13 @@ Below is the current structure for shared data on each server:
 │   │   └── dcan-infant-pipeline  
 │   ├── processed  
 │   │   └── test5_output  
-│   └── sorted  
+│   └── sorted
+├── BCP_MSIprocessed_anat
 ├── BIDS_rat  
-├── HCP  
+├── computerized_loes_scoring
+├── datalad
+├── HBN
+├── HCP-D  
 │   ├── derivatives  
 │   │   ├── dcan-abcd-hcp  
 │   │   └── dcan-macaque-pipeline  
@@ -303,10 +311,15 @@ Below is the current structure for shared data on each server:
 │   │   └── Infants  
 │   └── sorted  
 │       └── NHP_anesthesia_Brambink  
-└── manifests  
+├── HNU
+├── manifests  
     ├── BCP  
     └── FezABCD  
     └── experiments  
+├── MATAAR_subjects
+├── nnUNet
+├──S1058_3T_adult
+└── test
 ```
 
 ### /home/miran045/shared/data
@@ -317,10 +330,20 @@ Below is the current structure for shared data on each server:
 │   ├── fconns  
 │   ├── prep_ctype  
 │   └── variance_files  
+├── abcd_nda_retrieved_march_2021
+├── ABIDE
+├── ADHD
+├── BCP
+├── essa_7T
 ├── GUI_environments_training  
 │   └── data  
-└── macaque_2yo_anesthesia  
-    └── BIDS  
+├── macaque_2yo_anesthesia  
+│   └── BIDS
+├── MSC_to_DCAN
+├── S1058
+├── UMich
+├── washu_me_baby
+└── zimmerman_10p5T_macaque_test
 ```
 
 ### /home/faird/shared/data/
