@@ -2,9 +2,29 @@
 
 ## Check here for various didactic and journal club recordings. Please note that some recordings as missing, as not every presenter gives consent to be recorded.
 
-### **[Parallel hippocampal-parietal circuits for self- and goal-oriented processing]**
+### **[Overview of DCAN-infant pipeline]()
+
+*[Eric Feczko](https://innovation.umn.edu/developmental-cognition-and-neuroimaging-lab/our-team/leadership/) and [Lucille Moore](https://innovation.umn.edu/developmental-cognition-and-neuroimaging-lab/our-team/postdocs/)
+
+We'll give an overview of the image processing steps that occur in each stage of the DCAN-infant pipeline and how it differs from adult processing.
+
+### **[Improving neuroimaging of individual differences: Bayesian individualized parcellation](https://drive.google.com/file/d/18Nn3MABJrz5lXK05e5YND3sFI8BqBS0d/view?usp=sharing)**
+
+*[Colin DeYoung](https://deyoung.psych.umn.edu/lab-members) and [Tyler Sassenberg](https://deyoung.psych.umn.edu/lab-members)* - November 29, 2021
+
+The DeYoung Personality Lab studies the structure and sources of personality and risk for psychopathology. We will give a brief overview of our conceptual framework before turning to the question of how to deal with a major challenge for individual-differences research in neuroimaging: namely, the fact that the brain’s functional organization, especially in the cortex, is not fixed relative to anatomical landmarks. One common method has been ICA with dual regression, but this has serious limitations. We describe a better approach based on a Bayesian technique that adjusts the boundaries of a standard atlas to fit each subject optimally, and we illustrate it with data from our lab and HCP.
+
+### **[Polyneuro risk scores of general ability, executive function, and learning & memory](https://docs.google.com/document/d/1XpB3PJ0EV73pvnF6mO9_vbe5h57MsAUxdOHBlm6lJQU/edit#heading=h.uwg5hvk1xtti)**
+
+*[Nora Byington](https://innovation.umn.edu/developmental-cognition-and-neuroimaging-lab/our-team/leadership/) and [Gracie Grimsrud](https://innovation.umn.edu/developmental-cognition-and-neuroimaging-lab/our-team/undergrads/)* - November 1, 2021
+
+Utilizing the BWAS/PNRS approach, we leverage previously calculated principal component scores to look at the underlying functional connectivity related to General Ability, Executive Function, and Learning & Memory within the ABCD sample. Results are indicative of brain-wide instantiation for all 3 of these complex cognitive functions.
+
+### **[Parallel hippocampal-parietal circuits for self- and goal-oriented processing](https://drive.google.com/file/d/1o5ndBhoHzsVO8Jevh3n6qrIp7C4ZEMZQ/view?usp=sharing)**
 
 *[Annie Zheng](http://dbbs.wustl.edu/curstudents/Pages/student_bio.aspx?SID=7492)* - October 18, 2021
+
+Using individualized approaches to creating functional network partitions in the hippocampus, we found differential connectivity along the anterior-posterior axis of the hippocampus. We found the anterior hippocampus (head and body) to be preferentially connected to the default mode network as expected. The hippocampal tail, however, was strongly preferentially connected to the parietal memory network, which supports goal-oriented cognition and stimulus recognition.The functional dichotomization of the hippocampus into anterior DMN-connected and posterior PMN-connected parcels suggests parallel, but distinct circuits between the hippocampus and medial parietal cortex for self vs. goal-oriented processing.
 
 ### **[Brain Wide Associations (BWAS) to model the link between brain features and behavior. Polyneuro Risk Scores of Math abilities](https://drive.google.com/file/d/1oWJVqt6EvwGEnz2eeEV5CxYO_GHtx7V-/view?usp=sharing)**
 
