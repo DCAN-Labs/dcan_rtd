@@ -78,7 +78,7 @@ nav:
     - DCAN Visualization Tools:
         - Figure Maker: visual/figure.md
         - ShowM:
-            - Code and SOP: visual/show/code.md
+            - Code and SOP: visual/show/readme_showM/code.md
             - Video Walkthrough: visual/show/video.md
             - Release History: visual/show/release.md
         - Plot Histogram:
