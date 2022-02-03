@@ -24,79 +24,154 @@ Current folder structure via tree command:
 /home/faird/shared/code/  
 
 ```markdown
+├── dev 
 ├── external  
 │   ├── analytics  
-│   │   └── abcd-heap-feat  
+│   │   └── abcd-heap-feat
+│   ├── envs  
+│   │   └── miniconda3
 │   ├── GUIs  
 │   ├── pipelines  
-│   │   └── fmriprep-rodents-test  
+│   │   └── ABCD-XCP 
+│   │   └── fmriprep-rodents-test
+│   │   └── HCPpipelines
+│   │   └── nibabies
+│   │   └── symri
 │   ├── platforms  
 │   │   └── DEAP  
+│   ├── ROIS
+│   │   └── ColeAnticevicNetPartition
 │   ├── src  
 │   └── utilities  
-│       ├── distribute_readwrite_cifti  
-│       ├── mri_conv-master  
+│       ├── ciftify
+│       ├── cifti-matlab
+│       ├── circularGraph
+│       ├── datalad-nda
+│       ├── dcan_regressor
+│       ├── distribute_readwrite_cifti
+│       ├── fairly-big-processing-workflow
+│       ├── freesurfer_license
+│       ├── gifti
+│       ├── gifti-1.6
+│       ├── gramm
+│       ├── infomap
+│       ├── MATLAB_Runtime_R2017a
+│       ├── MATLAB_Runtime_R2019a
+│       ├── MATLAB_Runtime_R2019a_update9
+│       ├── MATLAB_Runtime_R2021a
+│       ├── mri_conv-master
+│       ├── MSCcodebase-master
+│       ├── nda_manifest
+│       ├── nda_rds_files
+│       ├── nda-tools
 │       ├── nhp-brainextraction  
 │       ├── pandoc  
 │       ├── tree-1.8.0  
-│       └── workbench  
+│       ├── v100pytorch
+│       ├── workbench
+│       └── xmltree-2.0  
 └── internal  
-    ├── analytics  
-    │   ├── DCANCCA  
-    │   ├── FRF  
-    │   ├── MarginalModelCIFTI  
-    │   └── NormativeModeling  
-    ├── GUIs  
-    │   ├── DEAP  
-    │   └── GUI_environments  
-    ├── pipelines  
-    │   ├── ABCD-BIDS  
-    │   ├── DCAN-infant-BIDS  
-    │   ├── freesurfer_license  
-    │   ├── install_folder  
-    │   └── nhp-ABCD-BIDS  
-    ├── platforms  
-    └── utilities  
-        ├── ABCD-BIDS-task-fmri-pipeline  
-        ├── abcd_task_prep  
-        ├── automated_subset_analysis  
-        ├── basic_stats  
-        ├── CIFTI  
-        ├── cifti_connectivity  
-        ├── cifti-matlab  
-        ├── cifti_tools  
-        ├── cifti_utilities  
-        ├── CommunityChiSquaredAnalysis  
-        ├── connectotyping  
-        ├── dcan  
-        ├── Dcm2Bids  
-        ├── fconn_matrices_tools  
-        ├── fconn_stats  
-        ├── figure_maker  
-        ├── file-mapper  
-        ├── files_handling  
-        ├── generic_for_functions  
-        ├── gifti  
-        ├── graph_metrics  
-        ├── GUI_brain_connectivity  
-        ├── GUI_environments  
-        ├── image_manipulation  
-        ├── MachineLearning_SVM  
-        ├── Matlab_CIFTI  
-        ├── MatlabCompiledRuntimes  
-        ├── movement_regressors_power_plots  
-        ├── nda-abcd-s3-downloader  
-        ├── ParallelPconnGenerator  
-        ├── PBSdemo  
-        ├── plotting-tools  
-        ├── polyneuro_risk_score  
-        ├── ReadDir  
-        ├── recursive-connectivity  
-        ├── sandbox  
-        ├── SurfConnectivity  
-        ├── tables_handling  
-        ├── test_release_connectotyping  
-        └── text_manipulation  
+│    ├── analytics  
+│    │   ├── compare_matrices_copy_to_merge_from
+│    │   ├── compare_matrices_to_assign_networks    
+│    │   ├── DCANCCA  
+│    │   ├── FRF  
+│    │   ├── MarginalModelCIFTI  
+│    │   ├── NormativeModeling
+│    │   └── PEAS  
+│    ├── GUIs  
+│    │   ├── DEAP  
+│    │   └── GUI_brain_connectivity  
+│    ├── HPC_processing
+│    │   ├── hBCD_BCP_QSIprep
+│    │   ├── S1042_TMS_Tics
+│    │   ├── S1053_TMS_Fear
+│    │   └── seed_map_wrapper
+│    ├── nnUNet
+│    │   └── slurm_scripts
+│    ├── pipelines  
+│    │   ├── ABCD-BIDS  
+│    │   ├── abcd-hcp-pipeline
+│    │   ├── bidsnet
+│    │   ├── CABINET
+│    │   ├── DCAN-infant-BIDS  
+│    │   ├── dcan-infant-pipeline
+│    │   ├── dcan-nn-unet
+│    │   ├── freesurfer_license
+│    │   ├── infant-abcd-bids-pipeline
+│    │   ├── install_folder  
+│    │   ├── nhp-ABCD-BIDS
+│    │   ├── nibabies
+│    │   └── pipeline-subission  
+│    ├── platforms  
+│    └── utilities  
+│        ├── ABCD-BIDS-task-fmri-pipeline  
+│        ├── abcd-hcp-pipeline_audit
+│        ├── automated_subset_analysis  
+│        ├── basic_stats
+│        ├── biceps
+│        ├── BIDS-FM
+│        ├── CIFTI  
+│        ├── cifti_connectivity
+│        ├── CIFTIScalarAnalysis  
+│        ├── cifti_tools  
+│        ├── cifti_utilities 
+│        ├── combine_bids_sessions
+│        ├── CommunityChiSquaredAnalysis
+│        ├── community_detection
+│        ├── connectotyping  
+│        ├── dcan_bold_processing  
+│        ├── Dcm2Bids  
+│        ├── deface
+│        ├── fconn_matrices_tools  
+│        ├── fconn_stats  
+│        ├── figure_maker  
+│        ├── file-mapper  
+│        ├── files_handling  
+│        ├── generic_for_functions  
+│        ├── hcp-pipeline_audit 
+│        ├── image_manipulation
+│        ├── infomap_community_detection
+│        ├── intendedforgui
+│        ├── JSONS-Examples
+│        ├── MachineLearning_SVM 
+│        ├── mahalanobis_outlier_identifier
+│        ├── Matlab_CIFTI  
+│        ├── MatlabCompiledRuntimes 
+│        ├── MergeTimeSeires
+│        ├── movement_regressors_power_plots  
+│        ├── nda-abcd-s3-downloader
+│        ├── nda-bids-upload-prepare
+│        ├── nibabies_submission
+│        ├── NKI-Rockland_raw_download
+│        ├── NORDIC
+│        ├── outlier-sensoring
+│        ├── output
+│        ├── ParallelPconnGenerator  
+│        ├── PBSdemo  
+│        ├── pconn_rows_to_pscalar
+│        ├── pipeline_wrappers
+│        ├── plotting-tools  
+│        ├── polyneuro_risk_score  
+│        ├── ReadDir  
+│        ├── read_volumes
+│        ├── recursive-connectivity  
+│        ├── reformat_motion_numbers
+│        ├── save
+│        ├── seed_map_wrapper
+│        ├── simnibs_cifti_tools
+│        ├── singularity
+│        ├── slurm_pipeline_wrappers
+│        ├── SurfConnectivity  
+│        ├── tables_handling  
+│        ├── test_release_connectotyping  
+│        ├── text_manipulation
+│        ├── VARS
+│        └── Zscore_dconn
+└── stable
+     └── utilities
+         └── BWAS_PNRS_package
+         
 ```
 
 Each repo must be kept under version control and has a developer responsible.  
@@ -208,6 +283,10 @@ Below is the current structure for shared data on each server:
 ### /home/feczk001/shared/data
 
 ```markdown
+├── ABCD
+├── ABCD_copy
+├── ABCD_sym_for_CuBIDS
+├── abcd-sync
 ├── adhd_subs_transfer  
 │   ├── derivatives  
 │   │   ├── abcd-hcp-pipeline  
@@ -217,9 +296,13 @@ Below is the current structure for shared data on each server:
 │   │   └── dcan-infant-pipeline  
 │   ├── processed  
 │   │   └── test5_output  
-│   └── sorted  
+│   └── sorted
+├── BCP_MSIprocessed_anat
 ├── BIDS_rat  
-├── HCP  
+├── computerized_loes_scoring
+├── datalad
+├── HBN
+├── HCP-D  
 │   ├── derivatives  
 │   │   ├── dcan-abcd-hcp  
 │   │   └── dcan-macaque-pipeline  
@@ -228,10 +311,15 @@ Below is the current structure for shared data on each server:
 │   │   └── Infants  
 │   └── sorted  
 │       └── NHP_anesthesia_Brambink  
-└── manifests  
+├── HNU
+├── manifests  
     ├── BCP  
     └── FezABCD  
     └── experiments  
+├── MATAAR_subjects
+├── nnUNet
+├──S1058_3T_adult
+└── test
 ```
 
 ### /home/miran045/shared/data
@@ -242,10 +330,20 @@ Below is the current structure for shared data on each server:
 │   ├── fconns  
 │   ├── prep_ctype  
 │   └── variance_files  
+├── abcd_nda_retrieved_march_2021
+├── ABIDE
+├── ADHD
+├── BCP
+├── essa_7T
 ├── GUI_environments_training  
 │   └── data  
-└── macaque_2yo_anesthesia  
-    └── BIDS  
+├── macaque_2yo_anesthesia  
+│   └── BIDS
+├── MSC_to_DCAN
+├── S1058
+├── UMich
+├── washu_me_baby
+└── zimmerman_10p5T_macaque_test
 ```
 
 ### /home/faird/shared/data/
