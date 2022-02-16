@@ -16,7 +16,6 @@ nav:
             - DICOM Transfers (CMRR-UMN): access/data/dicom.md
             - Within Institution: access/data/within.md
             - Between Institutions: access/data/between.md
-        - Code and Data Location on MSI: access/location.md
     - Coding Standards: code.md
     - Programming Languages: lang.md 
     - Containers: contain.md
@@ -28,7 +27,11 @@ nav:
         - Respiration Rate Settings: pipeline/respir.md
     - Manual Processing via DCAN Pipelines:
         - ABCD: manualpro/abcd.md
-        - Infant Team: manualpro/infant.md
+        - Infant Team:
+            - Infant Pipeline Documentation: manualpro/infant/pipeline.md
+            - Fixing Common Errors: manualpro/infant/error.md
+            - Templates for Brain Extraction: manualpro/infant/template.md
+            - Quality Control for Infant Data: manualpro/infant/qc.md
         - NHP: manualpro/nhp.md
         - Rodent: manualpro/rodent.md
     - Cleaning Intermediate Files:
