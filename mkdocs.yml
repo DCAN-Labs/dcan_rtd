@@ -16,7 +16,6 @@ nav:
             - DICOM Transfers (CMRR-UMN): access/data/dicom.md
             - Within Institution: access/data/within.md
             - Between Institutions: access/data/between.md
-        - Code and Data Location on MSI: access/location.md
     - Coding Standards: code.md
     - Programming Languages: lang.md 
     - Containers: contain.md
@@ -78,7 +77,7 @@ nav:
     - DCAN Visualization Tools:
         - Figure Maker: visual/figure.md
         - ShowM:
-            - Code and SOP: visual/show/readme_showM/code.md
+            - Code and SOP: visual/show/code.md
             - Video Walkthrough: visual/show/video.md
             - Release History: visual/show/release.md
         - Plot Histogram:
