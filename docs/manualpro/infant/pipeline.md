@@ -152,17 +152,12 @@ The options for this flag are as follows:
 
 `atropos_labels.nii.gz` (atropos segmentation file):
 
-![InfantExample_1](../../images/InfantExample_1.jpg "InfantExample_1")
+![InfantExample_1](../../images/InfantExample_1.jpeg "InfantExample_1")
 
 
 `atropos_mask.nii.gz` overlaid on top of `atropos_labels.nii.gz` (mask created using atropos label 4):
 
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to ../../images/image6.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![InfantExample_Mask](../../images/InfantExample_Mask.jpg "InfantExample_Mask")
+![InfantExample_Mask](../../images/InfantExample_Mask.jpeg "InfantExample_Mask")
 
 
 **Optional flag: set values used by atropos for mask refinement**
