@@ -36,7 +36,7 @@ To optimize the HCP pipeline for use in infant populations several key changes w
 **Pre-Freesurfer Modifications**
 
 
-![Volume-Preprocessing.png](../../images/Volume-Preprocessing.png "Volume-Preprocessing.png")
+![Volume-Preprocessing.png](../../images/Infant/Volume-Preprocessing.png "Volume-Preprocessing.png")
 
 
 The main outputs from the Pre-Freesurfer stage are the subject brain registered to atlas space and segmentations. Because little space exists between the infant brain and skull, several key modifications were made to this pipeline to optimize brain extraction and registration.  We first denoise the anatomical images using ANTs denoising, average like-modality scans together, and perform ANTs N4 bias field correction. We then use a head-to-head rigid body transform to ACPC-align both T1w and T2w structural images to the NIH pediatric template, resulting in native volume space images. Brain extraction is performed by binarizing the MNI infant brain atlas and nonlinearly warping it to the T2w structural image using a transformational matrix generated based on the warp from the MNI atlas head to the T2w subject head. The resulting T2w brain mask is then linearly warped to the T1w brain. The output of this process is the initial skull-stripped T1w and T2w infant brain in native volume space.
@@ -45,7 +45,7 @@ The spin echo field maps collected in both the anterior-posterior and posterior-
 
 **Freesurfer Modifications**
 
-![SurfacePreProc.png](../../images/SurfacePreProc.png "SurfacePreProc.png")
+![SurfacePreProc.png](../../images/Infant/SurfacePreProc.png "SurfacePreProc.png")
 
 
 The mean intensity of the resulting white and grey matter labels are adjusted to match the Freesurfer adult atlas. This hypernormalization procedure improves grey and white matter segmentations in infants and allows us to use HCP’s FreeSurfer Recon all to generate surfaces in the infant brain.
@@ -60,9 +60,9 @@ The PostFreesurfer stage converts freesurfer outputs into the standard CIFTI spa
 
 _Functional volume mapping (Vol) changes_
 
-![FunctionalVolumeMapping.png](../../images/FunctionalVolumeMapping.png "FunctionalVolumeMapping.png")
+![FunctionalVolumeMapping.png](../../images/Infant/FunctionalVolumeMapping.png "FunctionalVolumeMapping.png")
 
-![fMRI-Surface](../../images/fMRI-Surface.png "fMRI-Surface")
+![fMRI-Surface](../../images/Infant/fMRI-Surface.png "fMRI-Surface")
 
 
 Only one modification was made to the functional mapping (“vol” and “surf”) stages of the HCP pipeline, where functional data are projected onto the standard template and converted to CIFTI format. The unmodified HCP pipeline required the use of reverse phase spin-echo or gradient field maps in order to complete the functional mapping. Such images are used to correct distortions produced when acquiring fMRI data. While such distortion correction is considered best practice in modern fMRI studies, the modified HCP pipeline includes a “no distortion correction” approach, when no such data is acquired. Such an approach is a necessity for some large legacy datasets (e.g. ABIDE). Like most fMRI studies, the pipeline performs slice timing correction, mode 1000 normalization and frame-frame realignment at this stage. Framewise displacement measures (FD), are used in the DCAN preproc stage below to help control for the motion artifact.
@@ -152,12 +152,12 @@ The options for this flag are as follows:
 
 `atropos_labels.nii.gz` (atropos segmentation file):
 
-![InfantExample_1](../../images/InfantExample_1.jpeg "InfantExample_1")
+![InfantExample_1](../../images/Infant/InfantExample_1.jpeg "InfantExample_1")
 
 
 `atropos_mask.nii.gz` overlaid on top of `atropos_labels.nii.gz` (mask created using atropos label 4):
 
-![InfantExample_Mask](../../images/InfantExample_Mask.jpeg "InfantExample_Mask")
+![InfantExample_Mask](../../images/Infant/InfantExample_Mask.jpeg "InfantExample_Mask")
 
 
 **Optional flag: set values used by atropos for mask refinement**
@@ -204,7 +204,7 @@ The default option is for the pipeline to autodetect which method to use. If the
 For infant data, there are occasionally issues with DC, which shows up in the executive summary as poor registration of the functional to anatomical data. Therefore, it is suggested that you try running with the T2_DC (or NONE if truly necessary) option to see if that improves the outputs. The images below show the effect of distortion correction: 
 
 
-![infant_DC_example](../../images/infant_DC_example.png "infant_DC_example")
+![infant_DC_example](../../images/Infant/infant_DC_example.png "infant_DC_example")
 
 
  \
@@ -221,7 +221,7 @@ Default option: ROI_IPS
 
 In the infant pipeline, hypernormalization is performed by script as the first step during FreeSurfer (as opposed to the last step of PreFreesurfer as found in the adult pipeline). Hypernormalization uses the white and gray matter labels to adjust the mean intensity of WM and GM to match the Freesurfer adult atlas. In infants, the default method, ROI_IPS, takes the mean voxel intensities of WM, GM, and CSF separately and shifts each to match the intensity profiles of adult WM, GM, and CSF respectively. The ADULT_GM option shifts the entire base image based on the intensity profiles of GM and WM to match the adult atlas. NONE skips hypernormalization. This allows the user to run PreFreeSurfer, apply new, experimental hypernormalization methods to PreFreeSurfer outputs, and then restart at FreeSurfer.
 
-![HypernormalizationMethod](../../images/HypernormalizationMethod.png "HypernormalizationMethod")
+![HypernormalizationMethod](../../images/Infant/HypernormalizationMethod.png "HypernormalizationMethod")
 
 
  \
@@ -256,7 +256,7 @@ _How JLF works:_
      **Vote is weighted based on the cross correlation between the atlas and subject's voxel intensities for the given area
 
 
-![T1T2_JLF-aseg_example](../../images/T1T2_JLF-aseg_example.png "T1T2_JLF-aseg_example")
+![T1T2_JLF-aseg_example](../../images/Infant/T1T2_JLF-aseg_example.png "T1T2_JLF-aseg_example")
  
 
  \
@@ -274,7 +274,7 @@ Default option: 17
 In infants, the 17th frame from each BOLD run is used when computing motion-control values. If motion artifacts appear in the executive summary (e.g. banding - see image below), the raw functional BIDS data should be inspected to ensure that the 17th frame is motion-free. If not, choose an alternative frame (greater than frame 4) that is free of motion. \
  \
 
-![ReferenceFrame](../../images/ReferenceFrame.png "ReferenceFrame")
+![ReferenceFrame](../../images/Infant/ReferenceFrame.png "ReferenceFrame")
 
 
  \
