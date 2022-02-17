@@ -92,13 +92,13 @@ skinny_plot(T)
 <span class="comment">%</span>
 <span class="comment">% YOu can see that it assign default colors and sort the labels</span>
 <span class="comment">% alphabetically</span>
-</pre><img vspace="5" hspace="5" src="../../images/Skinny/README_01.png" alt=""> <h2 id="5">Example 2. Changing color and resorting</h2><pre class="codeinput">resort_groups=[3 2 1];
+</pre><img vspace="5" hspace="5" src="../../../images/Skinny/README_01.png" alt=""> <h2 id="5">Example 2. Changing color and resorting</h2><pre class="codeinput">resort_groups=[3 2 1];
 <span class="comment">% resort_groups=[1 2 3];</span>
 my_color=[0 0 1;0 1 0;1 0 0];
 
 skinny_plot(T,my_color,<span class="keyword">...</span>
     <span class="string">'resort_groups'</span>,resort_groups)
-</pre><img vspace="5" hspace="5" src="../../images/Skinny/README_02.png" alt=""> <h2 id="6">Example 3: Testing additional options</h2><pre class="codeinput">dotted_line_flag=0; <span class="comment">%options are 1 and 0</span>
+</pre><img vspace="5" hspace="5" src="../../../images/Skinny/README_02.png" alt=""> <h2 id="6">Example 3: Testing additional options</h2><pre class="codeinput">dotted_line_flag=0; <span class="comment">%options are 1 and 0</span>
 show_text_flag=1;<span class="comment">%options are 1 and 0</span>
 linking_line_flag=1;<span class="comment">%options are 1 and 0</span>
 ol_flag=1;<span class="comment">%options are 1 and 0</span>
@@ -109,7 +109,7 @@ skinny_plot(T,my_color,<span class="keyword">...</span>
     <span class="string">'show_text_flag'</span>,show_text_flag,<span class="keyword">...</span>
     <span class="string">'linking_line_flag'</span>,linking_line_flag,<span class="keyword">...</span>
     <span class="string">'ol_flag'</span>,ol_flag)
-</pre><img vspace="5" hspace="5" src="../../images/Skinny/README_03.png" alt=""> <h2 id="7">Example 4: defining limits for visualization</h2><pre class="codeinput">yl=[-2.1 3.1];
+</pre><img vspace="5" hspace="5" src="../../../images/Skinny/README_03.png" alt=""> <h2 id="7">Example 4: defining limits for visualization</h2><pre class="codeinput">yl=[-2.1 3.1];
 skinny_plot(T,my_color,<span class="keyword">...</span>
     <span class="string">'resort_groups'</span>,resort_groups,<span class="keyword">...</span>
     <span class="string">'dotted_line_flag'</span>,dotted_line_flag,<span class="keyword">...</span>
@@ -117,7 +117,7 @@ skinny_plot(T,my_color,<span class="keyword">...</span>
     <span class="string">'linking_line_flag'</span>,linking_line_flag,<span class="keyword">...</span>
     <span class="string">'ol_flag'</span>,ol_flag,<span class="keyword">...</span>
     <span class="string">'yl'</span>,yl)
-</pre><img vspace="5" hspace="5" src="../../images/Skinny/README_04.png" alt=""> <h2 id="8">Example 5: showing multiple traces</h2><pre class="codeinput">n_labels=8; <span class="comment">% define number of labels</span>
+</pre><img vspace="5" hspace="5" src="../../../images/Skinny/README_04.png" alt=""> <h2 id="8">Example 5: showing multiple traces</h2><pre class="codeinput">n_labels=8; <span class="comment">% define number of labels</span>
 N_max=1000; <span class="comment">% define the maxiumum number of elements each label will have</span>
 n_elements_per_label=randi(1000,[n_labels 1]);<span class="comment">% indicate how many elements each sample will have with a maximum of 1000</span>
 
@@ -148,4 +148,4 @@ skinny_plot(T,[],<span class="keyword">...</span>
     <span class="string">'dotted_line_flag'</span>,dotted_line_flag);
 <span class="comment">% notice that to preserve default colors and add optional arguments, the</span>
 <span class="comment">% second input argument needs to be empty</span>
-</pre><img vspace="5" hspace="5" src="../../images/Skinny/README_05.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2020a</a><br></p></div></body></html>
+</pre><img vspace="5" hspace="5" src="../../../images/Skinny/README_05.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2020a</a><br></p></div></body></html>
