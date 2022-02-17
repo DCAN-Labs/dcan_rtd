@@ -54,8 +54,6 @@ nav:
             - Release History: analysis/forest/release.md
         - F Conn Regression: 
             - Overview: analysis/fconn/intro.md
-            - Code and SOP: analysis/fconn/code.md
-            - Release History: analysis/fconn/release.md
         - Cifti Conn Matrix: analysis/cifti.md
         - Community Detection:
             - Overview: analysis/comm/intro.md
@@ -69,10 +67,7 @@ nav:
             - Overview: analysis/auto/intro.md
             - Code and SOP: analysis/auto/code.md
             - Release History: analysis/auto/release.md
-        - BWAS:
-            - Overview: analysis/bwas/intro.md
-            - Code and SOP: analysis/bwas/code.md
-            - Release History: analysis/bwas/release.md
+        - BWAS: analysis/bwas.md
         - Poly Conn:
             - Overview: analysis/poly/intro.md
             - Code and SOP: analysis/poly/code.md
@@ -82,16 +77,12 @@ nav:
         - Figure Maker: visual/figure.md
         - ShowM:
             - Code and SOP: visual/show/code.md
-            - Video Walkthrough: visual/show/video.md
-            - Release History: visual/show/release.md
         - Plot Histogram:
             - Code and SOP: visual/plot/code.md
             - Video Walkthrough: visual/plot/video.md
             - Release History: visual/plot/release.md
         - Skinny Plot:
             - Code and SOP: visual/skin/code.md
-            - Video Walkthrough: visual/skin/video.md
-            - Release History: visual/skin/release.md
     - Utility Tools:
         - Downloading from NDA: utility/nda.md
         - Filemapper: utility/filemap.md
