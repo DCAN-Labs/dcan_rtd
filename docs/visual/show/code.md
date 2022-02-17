@@ -67,7 +67,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
   </style></head><body><div class="content"><h1></h1><!--introduction--><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Using showM</a></li><li><a href="#2">Repo location</a></li><li><a href="#3">Intro</a></li><li><a href="#4">For the expert/impatient</a></li><li><a href="#10">Inputs and examples</a></li><li><a href="#18">Showing data from only a few networks</a></li><li><a href="#19">Showing data from only specific systems</a></li><li><a href="#20">Get color limits based on the systems you care</a></li><li><a href="#21">Credits and date</a></li></ul></div><h2 id="1">Using showM</h2><h2 id="2">Repo location</h2><p>This function belongs to the package "plotting tools".</p><p>https://gitlab.com/ascario/plotting-tools</p><h2 id="3">Intro</h2><p>This code visualize connectivioty matrices. The most basic functionality is to only display a 2d matrices. If you provide extra (optional) arguments, you can group connectivity values per functional system and mess with coloring schema and visualization ranges.</p><h2 id="4">For the expert/impatient</h2><p>Example 1</p><p>Using the most basic functionality</p><pre class="codeinput">showM(M);
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_01.png" alt=""> <p>Example 2</p><p>Using a lot of options</p><pre class="codeinput"> showM(M,<span class="keyword">...</span>
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_01.png" alt=""> <p>Example 2</p><p>Using a lot of options</p><pre class="codeinput"> showM(M,<span class="keyword">...</span>
     <span class="string">'parcel'</span>,parcel,<span class="keyword">...</span>
     <span class="string">'line_color'</span>,[0 0 0],<span class="keyword">...</span>
     <span class="string">'line_width'</span>,0.5,<span class="keyword">...</span>
@@ -76,21 +76,21 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
     <span class="string">'fig_wide'</span>,7,<span class="keyword">...</span>
     <span class="string">'one_side_labels'</span>,1,<span class="keyword">...</span>
     <span class="string">'fig_tall'</span>,8);
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_02.png" alt=""> <pre class="codeinput"> showM(M,<span class="keyword">...</span>
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_02.png" alt=""> <pre class="codeinput"> showM(M,<span class="keyword">...</span>
     <span class="string">'parcel'</span>,parcel,<span class="keyword">...</span>
     <span class="string">'line_color'</span>,[0 0 0],<span class="keyword">...</span>
     <span class="string">'line_width'</span>,0.5,<span class="keyword">...</span>
     <span class="string">'my_color'</span>,<span class="string">'RG'</span>,<span class="keyword">...</span>
     <span class="string">'clims'</span>,[-.3 .39],<span class="keyword">...</span>
     <span class="string">'half'</span>,<span class="string">'both'</span>);
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_03.png" alt=""> <pre class="codeinput"> showM(M,<span class="keyword">...</span>
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_03.png" alt=""> <pre class="codeinput"> showM(M,<span class="keyword">...</span>
     <span class="string">'parcel'</span>,parcel,<span class="keyword">...</span>
     <span class="string">'line_color'</span>,[0 0 0],<span class="keyword">...</span>
     <span class="string">'line_width'</span>,0.5,<span class="keyword">...</span>
     <span class="string">'my_color'</span>,<span class="string">'RG'</span>,<span class="keyword">...</span>
     <span class="string">'clims'</span>,[-.3 .39],<span class="keyword">...</span>
     <span class="string">'half'</span>,<span class="string">'up'</span>);
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_04.png" alt=""> <pre class="codeinput"> showM(M,<span class="keyword">...</span>
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_04.png" alt=""> <pre class="codeinput"> showM(M,<span class="keyword">...</span>
     <span class="string">'parcel'</span>,parcel,<span class="keyword">...</span>
     <span class="string">'line_color'</span>,[0 0 0],<span class="keyword">...</span>
     <span class="string">'line_width'</span>,0.5,<span class="keyword">...</span>
@@ -98,8 +98,8 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
     <span class="string">'clims'</span>,[-.3 .39],<span class="keyword">...</span>
     <span class="string">'one_side_labels'</span>,1,<span class="keyword">...</span>
     <span class="string">'half'</span>,<span class="string">'low'</span>);
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_05.png" alt=""> <h2 id="10">Inputs and examples</h2><p><b>MANDATORY</b></p><p><b>M</b>: A connectivity matrix size ROIxROI.</p><pre class="codeinput">showM(M);
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_06.png" alt=""> <p><b>OPTIONAL (provided as paired arguments 'Name,Value')</b></p><div><ul><li><b>'clims',Value</b>, clims define the limots to be used vor visualization. 'Value' is a vector with the minimum and maximum value to be used for visualization. If not provided, the code will use as limits the minimun and maximum of M.</li></ul></div><p>Example 1</p><p>Lets use [-.5 .5] as limits of visualization</p><pre class="codeinput">minmax=[-.5 .5];
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_05.png" alt=""> <h2 id="10">Inputs and examples</h2><p><b>MANDATORY</b></p><p><b>M</b>: A connectivity matrix size ROIxROI.</p><pre class="codeinput">showM(M);
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_06.png" alt=""> <p><b>OPTIONAL (provided as paired arguments 'Name,Value')</b></p><div><ul><li><b>'clims',Value</b>, clims define the limots to be used vor visualization. 'Value' is a vector with the minimum and maximum value to be used for visualization. If not provided, the code will use as limits the minimun and maximum of M.</li></ul></div><p>Example 1</p><p>Lets use [-.5 .5] as limits of visualization</p><pre class="codeinput">minmax=[-.5 .5];
 showM(M,<span class="keyword">...</span>
     <span class="string">'clims'</span>,[-.5 .5]);
 title([<span class="string">'Using ['</span>, num2str(minmax(1) ), <span class="string">' '</span> num2str(minmax(2)), <span class="string">'] as limits'</span>])
@@ -114,22 +114,22 @@ minmax=prctile(values,ptiles);
 showM(M,<span class="keyword">...</span>
     <span class="string">'clims'</span>,minmax);
 title([<span class="string">'Using ['</span>, num2str(minmax(1) ), <span class="string">' '</span> num2str(minmax(2)), <span class="string">'] as limits'</span>])
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_07.png" alt=""> <img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_08.png" alt=""> <div><ul><li><b>'parcel',Value</b>, Here you can define the assignment of each ROI to a functional system. Value must be an structure whos size equals the number of functional systems and it must contain as fields the name and indices assigned to each functional system. YOu can inspect the included structure parcel that defines the Gordon parcelation schema</li></ul></div><p>Example</p><pre class="codeinput">showM(M,<span class="string">'parcel'</span>,parcel);
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_07.png" alt=""> <img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_08.png" alt=""> <div><ul><li><b>'parcel',Value</b>, Here you can define the assignment of each ROI to a functional system. Value must be an structure whos size equals the number of functional systems and it must contain as fields the name and indices assigned to each functional system. YOu can inspect the included structure parcel that defines the Gordon parcelation schema</li></ul></div><p>Example</p><pre class="codeinput">showM(M,<span class="string">'parcel'</span>,parcel);
 <span class="comment">%</span>
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_09.png" alt=""> <div><ul><li><b>'one_side_labels',Value</b>. Value is 1 or 0 and indicates if you like the labels with the names of the functional system in one side or both sides of the matrix. Default is 0.</li></ul></div><p>Example</p><pre class="codeinput">showM(M,<span class="keyword">...</span>
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_09.png" alt=""> <div><ul><li><b>'one_side_labels',Value</b>. Value is 1 or 0 and indicates if you like the labels with the names of the functional system in one side or both sides of the matrix. Default is 0.</li></ul></div><p>Example</p><pre class="codeinput">showM(M,<span class="keyword">...</span>
     <span class="string">'parcel'</span>,parcel,<span class="keyword">...</span>
     <span class="string">'one_side_labels'</span>,1);
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_10.png" alt=""> <p><b>'line_width',Value</b>. Line width for dividers. Default is 1.</p><p>Example</p><pre class="codeinput">showM(M,<span class="keyword">...</span>
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_10.png" alt=""> <p><b>'line_width',Value</b>. Line width for dividers. Default is 1.</p><p>Example</p><pre class="codeinput">showM(M,<span class="keyword">...</span>
     <span class="string">'parcel'</span>,parcel,<span class="keyword">...</span>
     <span class="string">'line_width'</span>,1.5);
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_11.png" alt=""> <p>*line_color',Value'. Color to be used for the divider lines. If provided, must be a 3 elements vector with the RGB values of the color to be used. Default is white ([1 1 1])</p><p>Example</p><pre class="codeinput">showM(M,<span class="keyword">...</span>
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_11.png" alt=""> <p>*line_color',Value'. Color to be used for the divider lines. If provided, must be a 3 elements vector with the RGB values of the color to be used. Default is white ([1 1 1])</p><p>Example</p><pre class="codeinput">showM(M,<span class="keyword">...</span>
     <span class="string">'parcel'</span>,parcel,<span class="keyword">...</span>
     <span class="string">'line_color'</span>,[0 0 0],<span class="keyword">...</span>
     <span class="string">'line_width'</span>,0.5);
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_12.png" alt=""> <div><ul><li>*'show_dividers,Value'*Value is 1 or 0 and indicates whether you want lines to be displayed to separate functional systems. Default is 1</li></ul></div><pre class="codeinput">showM(M,<span class="keyword">...</span>
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_12.png" alt=""> <div><ul><li>*'show_dividers,Value'*Value is 1 or 0 and indicates whether you want lines to be displayed to separate functional systems. Default is 1</li></ul></div><pre class="codeinput">showM(M,<span class="keyword">...</span>
     <span class="string">'parcel'</span>,parcel,<span class="keyword">...</span>
     <span class="string">'show_dividers'</span>,0);
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_13.png" alt=""> <div><ul><li><b>'my_color',Value</b>. Predefined coloring schemas. Only availabe options are red-blue (<b>RB</b>, default), red-yellow-blue ('RYB'), and red-green ('RG'). If unhappy, you can always force jet, parula or any other matlab schema</li></ul></div><p>Example</p><pre class="codeinput">my_color=cell(3,1);
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_13.png" alt=""> <div><ul><li><b>'my_color',Value</b>. Predefined coloring schemas. Only availabe options are red-blue (<b>RB</b>, default), red-yellow-blue ('RYB'), and red-green ('RG'). If unhappy, you can always force jet, parula or any other matlab schema</li></ul></div><p>Example</p><pre class="codeinput">my_color=cell(3,1);
 my_color{1}=<span class="string">'RB'</span>;
 my_color{2}=<span class="string">'RYB'</span>;
 my_color{3}=<span class="string">'RG'</span>;
@@ -149,7 +149,7 @@ showM(M,<span class="keyword">...</span>
     <span class="string">'my_color'</span>,my_color{i},<span class="keyword">...</span>
     <span class="string">'clims'</span>,[-.3 .39]);
 colormap <span class="string">jet</span>
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_14.png" alt=""> <img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_15.png" alt=""> <img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_16.png" alt=""> <img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_17.png" alt=""> <h2 id="18">Showing data from only a few networks</h2><p>If you want to show data from only a few networks, you need to make a new parcel object that only includes the networks you care. For example, if you just care about motor, subcortical and default, those systems in the provided sturcture <b>parcel</b> has the following indices: 8, 9 13, and 4.</p><p>The companion function and the following lines of code might help to get this thing done</p><pre class="codeinput">n_systems=size(parcel,2); <span class="comment">% count the number of functional systems in the object parcel</span>
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_14.png" alt=""> <img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_15.png" alt=""> <img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_16.png" alt=""> <img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_17.png" alt=""> <h2 id="18">Showing data from only a few networks</h2><p>If you want to show data from only a few networks, you need to make a new parcel object that only includes the networks you care. For example, if you just care about motor, subcortical and default, those systems in the provided sturcture <b>parcel</b> has the following indices: 8, 9 13, and 4.</p><p>The companion function and the following lines of code might help to get this thing done</p><pre class="codeinput">n_systems=size(parcel,2); <span class="comment">% count the number of functional systems in the object parcel</span>
 ix_networks_to_keep=[8 9 13 4];<span class="comment">% indices to keep</span>
 ix_networks_to_remove=get_ix_networks_to_remove(ix_networks_to_keep,n_systems); <span class="comment">% get the indices of the systems to remove</span>
 
@@ -180,7 +180,7 @@ showM(newM,<span class="string">'parcel'</span>,newParcel,<span class="keyword">
     <span class="string">'half'</span>,half,<span class="keyword">...</span>
     <span class="string">'my_color'</span>,my_color,<span class="keyword">...</span>
     <span class="string">'line_width'</span>,line_width);
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_18.png" alt=""> <h2 id="19">Showing data from only specific systems</h2><p>If you want to only show data from particular systems, you need to provide the list of the pairs you care. Building on the previous example, if you only like to show data from the Def-Def, Def-Sml and Sub-SMm on the truncated parcel, you need to identify the indices:</p><p>count systems in the new parcel</p><pre class="codeinput">n_systems=size(newParcel,2);
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_18.png" alt=""> <h2 id="19">Showing data from only specific systems</h2><p>If you want to only show data from particular systems, you need to provide the list of the pairs you care. Building on the previous example, if you only like to show data from the Def-Def, Def-Sml and Sub-SMm on the truncated parcel, you need to identify the indices:</p><p>count systems in the new parcel</p><pre class="codeinput">n_systems=size(newParcel,2);
 <span class="comment">%</span>
 <span class="comment">% Display the indices</span>
 [num2str([1:n_systems]') repmat(<span class="string">') '</span>,n_systems,1) cat(1,char(newParcel.name)) repmat(<span class="string">', n = '</span>,n_systems,1) num2str(cat(1,newParcel.n))]
@@ -208,7 +208,7 @@ ans =
     '3) SMm        , n =  8'
     '4) Subcortical, n = 19'
 
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_19.png" alt=""> <h2 id="20">Get color limits based on the systems you care</h2><p>This function calculate color limits based</p><pre class="codeinput">clims=get_ptiles_M_from_pairs(newM,delta,newParcel,ix_parcel_pairs_on);
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_19.png" alt=""> <h2 id="20">Get color limits based on the systems you care</h2><p>This function calculate color limits based</p><pre class="codeinput">clims=get_ptiles_M_from_pairs(newM,delta,newParcel,ix_parcel_pairs_on);
 showM(newM,<span class="string">'parcel'</span>,newParcel,<span class="keyword">...</span>
     <span class="string">'clims'</span>,clims,<span class="keyword">...</span>
     <span class="string">'fig_tall'</span>,fig_tall,<span class="keyword">...</span>
@@ -219,4 +219,4 @@ showM(newM,<span class="string">'parcel'</span>,newParcel,<span class="keyword">
     <span class="string">'my_color'</span>,my_color,<span class="keyword">...</span>
     <span class="string">'line_width'</span>,line_width,<span class="keyword">...</span>
     <span class="string">'IX_parcel_pairs_ON'</span>,ix_parcel_pairs_on);
-</pre><img vspace="5" hspace="5" src="https://raw.githubusercontent.com/norabyington/dcan_rtd/master/docs/visual/show/readme_showM/Readme_showM_20.png" alt=""> <h2 id="21">Credits and date</h2><p>Code developed by Oscar Miranda-Dominguez.</p><p>First line of code: July 5, 2018</p><p>Documentation started on May 24, 2019</p><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2019a</a><br></p></div></body></html>
+</pre><img vspace="5" hspace="5" src="../../images/ShowM/Readme_showM_20.png" alt=""> <h2 id="21">Credits and date</h2><p>Code developed by Oscar Miranda-Dominguez.</p><p>First line of code: July 5, 2018</p><p>Documentation started on May 24, 2019</p><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2019a</a><br></p></div></body></html>
