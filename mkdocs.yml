@@ -54,8 +54,6 @@ nav:
             - Release History: analysis/forest/release.md
         - F Conn Regression: 
             - Overview: analysis/fconn/intro.md
-            - Code and SOP: analysis/fconn/code.md
-            - Release History: analysis/fconn/release.md
         - Cifti Conn Matrix: analysis/cifti.md
         - Community Detection:
             - Overview: analysis/comm/intro.md
