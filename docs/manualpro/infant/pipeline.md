@@ -15,7 +15,7 @@ DCAN Infant Pipeline Code (dcan-infant-pipeline):**
 
 ### Pipeline Description:
 
-Written by Mollie Marr
+Written by Mollie Marr, Ph.D. and Elina Thomas, Ph.D.
 
 _A brief overview of the Human Connectome Pipeline (adapted for DCAN’s infant pipeline)._
 
