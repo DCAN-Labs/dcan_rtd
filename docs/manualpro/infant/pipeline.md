@@ -69,7 +69,7 @@ Only one modification was made to the functional mapping (“vol” and “surf�
 
 _DCANBOLD Processing_
 
-We include a new module to the HCP pipeline, termed “DCANBOLDProc”. This module performs functional connectivity preprocessing on rest fMRI scans only. Since the discovery of the motion artifact by multiple independent labs, many researchers conducted studies to determine the best standards and practices for quality assessment of functional connectivity data. This module attempts to incorporate such standards here (DCAN Preproc Figure 1) and involves four broad steps: 1) standard preprocessing, 2) motion censoring followed by standard reprocessing, and 3) construction of parcellated timeseries.  
+We include a new module to the HCP pipeline, termed “DCANBOLDProc”. The repository for this additional stage of the pipeline can be found [here](https://github.com/DCAN-Labs/dcan_bold_processing). This module performs functional connectivity preprocessing on rest fMRI scans only. Since the discovery of the motion artifact by multiple independent labs, many researchers conducted studies to determine the best standards and practices for quality assessment of functional connectivity data. This module attempts to incorporate such standards here (DCAN Preproc Figure 1) and involves four broad steps: 1) standard preprocessing, 2) motion censoring followed by standard reprocessing, and 3) construction of parcellated timeseries.  
 
  1. Standard preprocessing
 
