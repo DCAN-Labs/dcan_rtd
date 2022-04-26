@@ -67,9 +67,9 @@ _Functional volume mapping (Vol) changes_
 
 Only one modification was made to the functional mapping (“vol” and “surf”) stages of the HCP pipeline, where functional data are projected onto the standard template and converted to CIFTI format. The unmodified HCP pipeline required the use of reverse phase spin-echo or gradient field maps in order to complete the functional mapping. Such images are used to correct distortions produced when acquiring fMRI data. While such distortion correction is considered best practice in modern fMRI studies, the modified HCP pipeline includes a “no distortion correction” approach, when no such data is acquired. Such an approach is a necessity for some large legacy datasets (e.g. ABIDE). Like most fMRI studies, the pipeline performs slice timing correction, mode 1000 normalization and frame-frame realignment at this stage. Framewise displacement measures (FD), are used in the DCAN preproc stage below to help control for the motion artifact.
 
-_DCAN Preproc_
+_DCANBOLD Processing_
 
-We include a new module to the HCP pipeline, termed “DCAN Preproc”. This module performs functional connectivity preprocessing on rest fMRI scans only. Since the discovery of the motion artifact by multiple independent labs, many researchers conducted studies to determine the best standards and practices for quality assessment of functional connectivity data. This module attempts to incorporate such standards here (DCAN Preproc Figure 1) and involves four broad steps: 1) standard preprocessing, 2) motion censoring followed by standard reprocessing, and 3) construction of parcellated timeseries.  
+We include a new module to the HCP pipeline, termed “DCANBOLDProc”. This module performs functional connectivity preprocessing on rest fMRI scans only. Since the discovery of the motion artifact by multiple independent labs, many researchers conducted studies to determine the best standards and practices for quality assessment of functional connectivity data. This module attempts to incorporate such standards here (DCAN Preproc Figure 1) and involves four broad steps: 1) standard preprocessing, 2) motion censoring followed by standard reprocessing, and 3) construction of parcellated timeseries.  
 
  1. Standard preprocessing
 
