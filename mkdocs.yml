@@ -17,6 +17,7 @@ nav:
             - Within Institution: access/data/within.md
             - Between Institutions: access/data/between.md
     - Coding Standards: code.md
+    - Software Versioning: softwareversioning.md
     - Programming Languages: lang.md 
     - Containers: contain.md
     - Pipeline Pre-Processing:
