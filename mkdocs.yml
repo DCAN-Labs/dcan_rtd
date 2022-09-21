@@ -53,13 +53,9 @@ nav:
             - Overview: analysis/forest/intro.md
             - Code and SOP: analysis/forest/code.md
             - Release History: analysis/forest/release.md
-        - F Conn Regression: 
-            - Overview: analysis/fconn/intro.md
+        - F Conn Regression: analysis/fconn/intro.md
         - Cifti Conn Matrix: analysis/cifti.md
-        - Community Detection:
-            - Overview: analysis/comm/intro.md
-            - Code and SOP: analysis/comm/code.md
-            - Release History: analysis/comm/release.md
+        - Community Detection: analysis/comm/intro.md
         - Marginal Model CIFTI:
             - Overview: analysis/marg/intro.md
             - Code and SOP: analysis/marg/code.md
