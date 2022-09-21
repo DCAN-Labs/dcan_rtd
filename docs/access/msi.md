@@ -70,7 +70,7 @@ To optimize computing resources the MSI offers two types of [storage](https://ww
 - [High Performance Storage](https://www.msi.umn.edu/content/high-performance-storage): Data in the High Performance Storage is backed up and is accessible from all MSI systems.
 - [Second Tier Storage](https://www.msi.umn.edu/content/second-tier-storage):  Big and archival data is stored in the Second Tier. Data for each particular project can be found on each PI's space, depending on who leads each particular project.
 
-Storage locations should be determined in conversation with one or more DCAN Lab PI, and may change as space needs change. 
+Storage locations should be determined in conversation with one or more DCAN Labs PI, and may change as space needs change. 
 
 ## Submitting Jobs
 

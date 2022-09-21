@@ -6,7 +6,7 @@ One crucial way that we explore brain function is to explore the functional conn
 
 ## Code Locations
 
-DCAN lab members can find the code here:
+DCAN labs members can find the code here:
 /home/faird/shared/code/internal/utilities/cifti_connectivity
 
 The code is version controlled on [github](https://github.com/DCAN-Labs/cifti-connectivity.git).

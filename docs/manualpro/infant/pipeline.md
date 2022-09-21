@@ -5,7 +5,7 @@
 
 **BIDS App* for DCAN Infant Pipeline (infant-abcd-bids-pipeline):** [https://github.com/DCAN-Labs/infant-abcd-bids-pipeline/tree/master/app](https://github.com/DCAN-Labs/infant-abcd-bids-pipeline/tree/master/app)
 
-*a "BIDS App" is a portable neuroimaging pipeline that understands BIDS dataset). This software takes a BIDS folder as input, determines parameters to be used, and runs the dcan lab's modified hcp pipeline for infants.
+*a "BIDS App" is a portable neuroimaging pipeline that understands BIDS dataset). This software takes a BIDS folder as input, determines parameters to be used, and runs the dcan labs' modified hcp pipeline for infants.
 
 ** \
 DCAN Infant Pipeline Code (dcan-infant-pipeline):**

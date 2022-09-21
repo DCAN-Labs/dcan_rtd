@@ -13,7 +13,7 @@ Individual networks are identified in a 3-step process:
 
 ## Code Locations
 
-DCAN lab members can find the code here:
+DCAN labs members can find the code here:
 /home/faird/shared/code/internal/analytics/compare_matrices_to_assign_networks
 
 You can find the code and additional documentation, including the [SOP](https://github.com/DCAN-Labs/compare_matrices_to_assign_networks/blob/master/README.md), on [github](https://github.com/DCAN-Labs/compare_matrices_to_assign_networks).

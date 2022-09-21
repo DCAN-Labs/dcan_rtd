@@ -1,9 +1,9 @@
-# DCAN Lab Studies and Groups
+# DCAN Labs Studies and Groups
 
 ## ABCD Study
 
 The Adolescent Brain Cognitive Development (ABCD) study is the largest longitudinal study of brain development and childhood health outcomes from participants recruited from the around the U.S.  The ambitious study aims to answer questions about sleep, attention, substance use, physical activity, and education.  To probe the biological/environmental determinants of health, researchers collected  a rich data set that includes brain imaging (T1, T2, DTI, and fMRI), health screening (BMI, vision, surveys), biospecimens (Oral fluids, DNA, hair, baby teeth), Mental health (KSAD), Cognition (NIH toolbox and other tasks), Substance use surveys, cultural surveys, and environmental surveys).  You can read more about the study here: <https://abcdstudy.org/>.
-In the DCAN lab, we use the large ABCD data set to build new neuroimaging processing, and analysis tools to answer questions about brain-behavior associations and their reliability, neural networks, and genetic influences.
+In the DCAN labs, we use the large ABCD data set to build new neuroimaging processing, and analysis tools to answer questions about brain-behavior associations and their reliability, neural networks, and genetic influences.
 
 ## Subpopulations in ASD & ADHD Study (UMN)
 
@@ -11,7 +11,7 @@ Subpopulations in ASD & ADHD is a new study in collaboration with Washington Uni
 
 ## ASD/ADHD Studies (OHSU)
 
-The Oregon ADHD study is a longitudinal study of typically-developing children and children with ADHD.  It is one of the largest fMRI studies of childhood ADHD and has a high proportion of cases (i.e. enriched for ADHD).  The Autism study is smaller, but also contains fMRI data for a large cohort of children (~80, I think -R.H.).  In both cohorts, the DCAN lab investigates heterogeneity in these populations to see if there are useful biomarkers that predict outcomes (whatever they may be) in potential sub-populations.
+The Oregon ADHD study is a longitudinal study of typically-developing children and children with ADHD.  It is one of the largest fMRI studies of childhood ADHD and has a high proportion of cases (i.e. enriched for ADHD).  The Autism study is smaller, but also contains fMRI data for a large cohort of children (~80, I think -R.H.).  In both cohorts, the DCAN labs investigates heterogeneity in these populations to see if there are useful biomarkers that predict outcomes (whatever they may be) in potential sub-populations.
 
 ## Infant Team
 
