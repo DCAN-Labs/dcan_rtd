@@ -6,7 +6,7 @@ It can often be difficult to standardize the way figures are made in the connect
 
 ## Code Locations
 
-DCAN lab members can find the code here:
+DCAN labs members can find the code here:
 /home/faird/shared/code/internal/utilities/figure_maker
 
 You can find the version-controlled code on [gitlab](https://gitlab.com/Fair_lab/figure-maker).

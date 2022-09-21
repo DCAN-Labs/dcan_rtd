@@ -10,6 +10,6 @@ You can find out more information about the lab on our [website](https://innovat
 
 ## Read the Docs
 
-* Welcome to the Read the Docs page for the DCAN Lab at the University of Minnesota. Here you will find data processing tools, analysis tools, neuroimaging software tutorials and more.
+* Welcome to the Read the Docs page for the DCAN Labs at the University of Minnesota. Here you will find data processing tools, analysis tools, neuroimaging software tutorials and more.
 
 * If you are looking for resources to assist with data/projects at Oregon Health & Sciences University (OHSU), please visit the [Fair Lab on GitLab](https://gitlab.com/Fair_lab).

@@ -1,6 +1,6 @@
 # Programming Languages
 
-Here you will find training resources for the most commonly used programming languages within the DCAN Lab. There are several free programming related workshops offered by the UMN - visit [this link](https://latisresearch.umn.edu/workshops) for more details. Workshops are updated periodically each semester. 
+Here you will find training resources for the most commonly used programming languages within the DCAN Labs. There are several free programming related workshops offered by the UMN - visit [this link](https://latisresearch.umn.edu/workshops) for more details. Workshops are updated periodically each semester. 
 
 ## Bash  
 

@@ -1,6 +1,6 @@
 # Toward Best Practices to Develop, Reuse, and Share Code
 
-For information on the DCAN Lab standards for writing code, please visit [hackmd](https://medium.com/markdown-monster-blog/getting-images-into-markdown-documents-and-weblog-posts-with-markdown-monster-9ec6f353d8ec).
+For information on the DCAN Labs standards for writing code, please visit [hackmd](https://medium.com/markdown-monster-blog/getting-images-into-markdown-documents-and-weblog-posts-with-markdown-monster-9ec6f353d8ec).
 
 ## **The Typical Workflow**
 
