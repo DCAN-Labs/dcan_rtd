@@ -33,6 +33,7 @@ nav:
             - Fixing Common Errors: manualpro/infant/error.md
             - Templates for Brain Extraction: manualpro/infant/template.md
             - Quality Control for Infant Data: manualpro/infant/qc.md
+            - Troubleshooting: manualpro/infant/troubleshooting.md
         - NHP: manualpro/nhp.md
         - Rodent: manualpro/rodent.md
     - Cleaning Intermediate Files:
