@@ -1,6 +1,9 @@
 # Quality Control for Infant Data
 
+## Structural Pre-Processing Quality Assessment of BIDS Input Data
+![structural_preproc_qc.png](../../images/Infant/structural_preproc_qc.png "structural_preproc_qc.png")
 
+  
 ## Post-Processing Quality Assessment from Executive Summary
 ![powerpoint_slide](../../images/Infant/QC/INFANT_SOP_post-processing_7.23.19.pptx.png "powerpoint slide")
 ![powerpoint_slide](../../images/Infant/QC/INFANT_SOP_post-processing_7.23.19.pptx1.png "powerpoint slide")

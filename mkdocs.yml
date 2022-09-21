@@ -72,14 +72,12 @@ nav:
         - Video Walkthroughs: analysis/video.md
     - DCAN Visualization Tools:
         - Figure Maker: visual/figure.md
-        - ShowM:
-            - Code and SOP: visual/show/code.md
+        - ShowM: visual/show/code.md
         - Plot Histogram:
             - Code and SOP: visual/plot/code.md
             - Video Walkthrough: visual/plot/video.md
             - Release History: visual/plot/release.md
-        - Skinny Plot:
-            - Code and SOP: visual/skin/code.md
+        - Skinny Plot: visual/skin/code.md 
     - Utility Tools:
         - Downloading from NDA: utility/nda.md
         - Filemapper: utility/filemap.md
