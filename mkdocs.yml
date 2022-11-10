@@ -1,6 +1,6 @@
 site_name: DCAN Labs readthedocs
 
-theme: material
+theme: rtd-dropdown
 
 plugins:
     - search
