@@ -1,4 +1,4 @@
-# Developmental Cognition and Neuroimaging (DCAN) Lab
+# Developmental Cognition and Neuroimaging (DCAN) Labs
 
 ## About Us
 
