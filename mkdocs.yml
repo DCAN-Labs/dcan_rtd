@@ -4,7 +4,7 @@ theme:
     name: readthedocs
     custom_dir: overrides
     icon:
-        logo: dcan.ico
+        logo: dcan
 
 plugins:
     - search
