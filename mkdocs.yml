@@ -3,7 +3,7 @@ site_name: DCAN Labs readthedocs
 theme: 
     name: readthedocs
     logo: images/dcan.ico
-    favicon: images/dcan.ico
+    favicon: images/dcan.png
 
 plugins:
     - search
