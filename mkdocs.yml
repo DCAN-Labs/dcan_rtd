@@ -3,8 +3,6 @@ site_name: DCAN Labs readthedocs
 theme: 
     name: readthedocs
     logo: images/dcan.ico
-    palette:
-        primary: red
 
 plugins:
     - search
