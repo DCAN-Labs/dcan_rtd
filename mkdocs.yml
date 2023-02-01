@@ -2,11 +2,21 @@ site_name: DCAN Labs readthedocs
 
 theme: 
     name: readthedocs
-    favicon: assets/favicon.ico
-    logo: assets/favicon.ico
+    custom_dir: overrides
+    icon:
+        logo: dcan.ico
 
 plugins:
     - search
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+
     
 docs_dir: docs
 
