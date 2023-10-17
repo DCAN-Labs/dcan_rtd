@@ -10,9 +10,9 @@
 
 ### Non-UMN Employees
 
-In order to request an MSI account as a non-UMN employee, a Person of Interest (POI) account must first be created. The requester needs written approval from Dr. Damien Fair or another DCAN Leadership team member (Drs. Eric Feczko, Oscar Miranda-Dominguez, Steve Nelson, Anita Randolph, and Amanda Reuter). 
+In order to request an MSI account as a non-UMN employee, a Person of Interest (POI) account must first be created. The requester needs written approval from Dr. Damien Fair or another DCAN Leadership team member. 
 
-Send written approval to Nora Byington (`bying015@umn.edu`) to initiate the POI account creation process.
+Email [DCAN Labs](https://innovation.umn.edu/developmental-cognition-and-neuroimaging-lab/contact-us/) with "POI Account Request" in as your subject to initiate the POI account creation process.
 
 ## Gaining Access
 
